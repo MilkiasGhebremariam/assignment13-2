@@ -1,0 +1,54 @@
+body{
+    background-color: darkgray;
+    width: 80%;
+    margin: auto;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+img{
+    height: 60px;
+}
+.products{
+    border: 1px solid #333;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 20px
+}
+.hide{
+    display: none;
+}
+.display{
+    visibility: visible;
+}
+#order-table{
+    margin: 10px;
+    background-color: cadetblue;
+    border: darkseagreen 4px ;
+    border-radius: 10px;
+
+}
+#login-container{
+    margin: 50px;
+    background-color: darkblue;
+    color: white;
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    font-size: x-large;
+    font-style: normal;
+
+}
+.login-input{
+    background-color: white;
+    color: #333333;
+
+}
